@@ -1,0 +1,181 @@
+@import 'utilities.css';
+:root {
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #FDEFEF;
+    --turnary: #6E85B2;
+    --light: #F2F2F2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialiased;
+}
+
+header {
+    background: var(--dark);
+    clip-path: polygon(0, 100% 0, 100% 100%, 78% 80%, 0 100%);
+}
+
+.navbar {
+    width: 100vw;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    background-color: black;
+}
+
+header nav .left a {
+    color: var(--pure);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all.3s ease;
+    overflow: hidden;
+    padding: 21.1px;
+}
+
+header nav .left a:hover {
+    color: var(--primary);
+}
+
+header nav {
+    padding: 2rem 0;
+}
+
+.flex .right {
+    color: var(--dark);
+}
+
+.flex .right h2 {
+    font-size: 1.8rem;
+    color: var(--primary);
+    margin-bottom: 3rem;
+    padding-right: 1rem;
+}
+
+.flex .right h1 {
+    font-size: 3rem;
+    color: var(--dark);
+    padding-bottom: 3rem;
+}
+
+.flex .right h3 {
+    font: size 2.5rem;
+    color: var(--dark);
+    padding-right: 5rem;
+}
+
+#hello {
+    color: var(--dark);
+    font-size: 2.5;
+}
+
+section {
+    padding: 6rem 0;
+}
+
+#bg {
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 3rem;
+    color: var(--primary);
+    padding-bottom: 2rem;
+    background-color: black;
+}
+
+.about h2:hover {
+    color: var(--pure);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.about {
+    background-color: black;
+}
+
+.whitetext {
+    color: var(--light);
+}
+
+.whitetext:hover {
+    color: var(--primary);
+}
+
+.about h3 {
+    color: var(--primary);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.about h4 {
+    color: var(--pure);
+    text-align: center;
+    font-size: 3rem;
+    padding: 3rem;
+}
+
+.about h4:hover {
+    color: var(--primary);
+}
+
+.about h5 {
+    color: var(--primary);
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconhv {
+    height: 50px;
+    width: 50px;
+}
+
+#skill {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--primary);
+    margin-top: 4rem;
+}
+
+#skill:hover {
+    color: var(--dark);
+}
+
+.lastpage {
+    height: 500px;
+    width: 750px;
+}
+
+.skill-section {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: var(--primary);
+    color: black !important;
+}
+
+.btn:hover {
+    color: white !important;
+}

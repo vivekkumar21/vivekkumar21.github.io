@@ -1,0 +1,27 @@
+.btn {
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--dark);
+    transition: all .3s ease;
+}
+
+.btn:hover {
+    color: var(--light);
+}
+
+.flex {
+    display: flex;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
