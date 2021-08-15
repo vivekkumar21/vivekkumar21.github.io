@@ -16,6 +16,19 @@
 
 .flex {
     display: flex;
+    background-color: white;
+}
+
+.flex .left {
+    padding: 3rem 0;
+    height: 80vh;
+    margin: 6rem 0;
+}
+
+.flex .right {
+    padding: 7rem 0;
+    height: 80vh;
+    margin: 6rem 0;
 }
 
 .item-center {

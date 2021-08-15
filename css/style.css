@@ -25,9 +25,9 @@ header {
 
 .navbar {
     width: 100vw;
-    padding: 0 15px;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     position: fixed;
     top: 0%;
@@ -52,13 +52,18 @@ header nav {
 
 .flex .right {
     color: var(--dark);
+    padding: 2rem;
 }
 
 .flex .right h2 {
     font-size: 1.8rem;
     color: var(--primary);
-    margin-bottom: 3rem;
-    padding-right: 1rem;
+    /* margin-bottom: 3rem;
+    padding-right: 1rem; */
+}
+
+.flex .right h2:hover {
+    color: var(--dark);
 }
 
 .flex .right h1 {
@@ -179,32 +184,42 @@ section {
     color: white !important;
 }
 
-
-/* .container {
-    max-width: 1152px;
-    padding: 0 15px;
-    margin: 0;
-} */
-
-#imageres {
-    max-width: 60%;
-    height: auto;
-}
-
 #textres {
-    max-width: 40%;
-    height: auto;
+    max-width: 50vw;
+    height: 70vh;
 }
 
-.flexres {
-    max-width: 100%;
-    flex-direction: column;
-}
-
-@media screen and(max-width:375px) {
-    #img1 {
-        margin: 5rem 0 !important;
-        padding-top: 3rem !important;
-        width: 100%;
+@media screen and (max-width:1080px) {
+    #imageres {
+        width: 100vw;
+    }
+    #textres {
+        width: 100vw;
+    }
+    .flexres {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex .right h2 {
+        font-size: 1.8rem;
+        color: var(--primary);
+        margin-bottom: 3rem;
+        padding-right: 1rem;
+    }
+    .flex .right h3 {
+        font-size: 1.8rem;
+        color: var(--dark);
+        margin-bottom: 3rem;
+        padding-right: 1rem;
+    }
+    .flex .right h1 {
+        font-size: 1.8rem;
+        color: var(--dark);
+        margin-bottom: 3rem;
+        padding-right: 1rem;
+    }
+    .flex .right {
+        flex-direction: row;
     }
 }
