@@ -40,7 +40,6 @@ header nav .left a {
     text-transform: uppercase;
     transition: all.3s ease;
     overflow: hidden;
-    padding: 21.1px;
 }
 
 header nav .left a:hover {
@@ -178,4 +177,34 @@ section {
 
 .btn:hover {
     color: white !important;
+}
+
+
+/* .container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0;
+} */
+
+#imageres {
+    max-width: 60%;
+    height: auto;
+}
+
+#textres {
+    max-width: 40%;
+    height: auto;
+}
+
+.flexres {
+    max-width: 100%;
+    flex-direction: column;
+}
+
+@media screen and(max-width:375px) {
+    #img1 {
+        margin: 5rem 0 !important;
+        padding-top: 3rem !important;
+        width: 100%;
+    }
 }
