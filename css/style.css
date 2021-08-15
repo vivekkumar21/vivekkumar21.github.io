@@ -190,11 +190,13 @@ section {
 }
 
 @media screen and (max-width:1080px) {
-    #imageres {
-        width: 100vw;
+    #img1 {
+        width: 100%;
+        overflow-x: hidden;
     }
     #textres {
-        width: 100vw;
+        width: 100%;
+        overflow-x: hidden;
     }
     .flexres {
         display: flex;
