@@ -196,11 +196,11 @@ section {
     }
     #textres {
         width: 100%;
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .flexres {
-        display: flex;
-        flex-direction: column;
+        display: list-item;
+        /* flex-direction: column; */
         align-items: center;
     }
     .flex .right h2 {
